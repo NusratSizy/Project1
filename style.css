@@ -207,7 +207,7 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    bottom: -25px;
+    bottom: -25px; 
     border-radius: 15%/50%;
     background:linear-gradient(120deg,#6b60ec 20%,#a166f4);
     color: #FFFFFF;
@@ -236,10 +236,12 @@ span{
     margin: 30px auto;
     padding:30px;
     transform: translateY(100px);
+    margin-bottom: 250px !important; 
     
 }
 .aboutbox{
    width: 40%;
+   
 }
 .aboutbox img{
     width:100%;
@@ -260,10 +262,73 @@ span{
     font-weight: 400;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
 .aboutbox p{
     font-size: 1rem;
-    color: #1F1F1F;
+    color: #776b6b;
     letter-spacing: 1px;
+}
+.notification{
+    width: 100%;
+    height: 70px;
+    margin-bottom: 100px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.notification h1{
+    font-size: 2rem;
+    color: #22204a;
+}
+.NotificationInput{
+    width: 500px;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 2px 2px 30px #1d1d1d36;
+    border-radius: 7%/50%;
+    margin-top: 20px;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+} 
+.NotificationInput input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    
+}
+.NotificationInput button{
+    width: 100px;
+    height: 100%;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 20%/50%;
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.139);
+    
+    
+}
+.NotificationInput button:hover{
+    background-color:#6b60ec;
+			transition: all  ease 0.5s;
+}
+footer{
+    height: 0px;
+    background-color: black !important;
+    padding: 20px;
+}
+footer p{
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+
 }
